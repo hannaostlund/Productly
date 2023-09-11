@@ -1,5 +1,13 @@
 header {
     position: static;
+    padding-left: 145px;
+    padding-right: 145px;
+}
+
+body {
+    width: 1400px;
+    height: 3843px;
+    background: #FFF;
 }
 
 .bitmap {
@@ -22,7 +30,7 @@ main {
 
 h1 {
     color: #2F281E;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 44px;
     font-style: normal;
     font-weight: 700;
@@ -32,17 +40,45 @@ h1 {
 }
 
 h2 {
+    color: #2F281E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
+h3 {
+    color: #2F281E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h4 {
+    color: #2F281E;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
 }
 
 p {
     color: #544837;
-    font-family: Poppins;
-    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 28px; 
 }
+
+a:link {
+    color: #FF9900;
+  }
 
 .section-1 {
     display: flex;
@@ -56,20 +92,85 @@ p {
 .text-1 {
     max-width: 458px;
     height: 95px; 
+    font-size: 18px;
 }
 
-.btn-1 {
+.btn {
     height: 53px;
     border-radius: 4px;
     background: #F90;
     color: #FFF;
-    font-family: font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
+.fa-solid {
+    color: #F90;
+}
+
 .jumping-people {
     justify-content: flex-end;
+}
+
+.text-block-2 {
+    width: 539px;
+}
+
+.container-1 {
+    width: 2211px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    color: #544837;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    max-width: 240px;
+    display: flex-wrap;
+    justify-content: space-around;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.text-block-3 {
+    display: flex;
+}
+
+.text-content-3 {
+    max-width: 486px;
+    height: 531px;
+}
+
+.phone-man {
+    justify-content: flex-end;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.text-block-4 {
+    display: flex;
+}
+
+.text-content-4 {
+    max-width: 486px;
+    height: 531px;
+}
+
+.computer-man {
+    justify-content: flex-start;
 }
