@@ -41,7 +41,6 @@ h1 {
 
 h2 {
     color: #2F281E;
-    text-align: center;
     font-family: Poppins;
     font-size: 36px;
     font-style: normal;
@@ -173,4 +172,24 @@ a:link {
 
 .computer-man {
     justify-content: flex-start;
+}
+
+
+.section-5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.text-block-5 {
+    display: flex;
+}
+
+.text-content-5 {
+    max-width: 486px;
+    height: 531px;
+}
+
+.device-man {
+    justify-content: flex-end;
 }
