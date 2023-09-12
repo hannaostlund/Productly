@@ -4,23 +4,14 @@ header {
     padding-right: 145px;
 }
 
-footer {
-    padding: 50px;
-    margin: 20px;
-    padding-left: 145px;
-    padding-right: 145px;
-    display: flex;
-}
-
-.footer-text-1 {
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-text-2 {
-    display: flex;
-    flex-direction: column;
-}
+.topnav {
+        float: right;
+        color: #2F281E;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
 
 body {
     width: 1400px;
@@ -44,7 +35,7 @@ body {
 main {
     padding-left: 145px;
     padding-right: 145px;
-    margin: auto;
+    margin: 30px;
     padding: auto;
 }
 
@@ -83,7 +74,6 @@ h4 {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 26px; /* 162.5% */
 }
 
 p {
@@ -95,6 +85,10 @@ p {
     line-height: 28px; 
 }
 
+img {
+    margin: 30px;
+}
+
 a:link {
     color: #FF9900;
   }
@@ -102,7 +96,7 @@ a:link {
 .section-1 {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 30px;
     margin: 20px;
 }
 
@@ -137,12 +131,18 @@ a:link {
 }
 
 .section-2 {
-    padding: 50px;
     margin: 20px;
+    padding: 30px;
+    display: flex;
 }
 
 .text-block-2 {
     width: 539px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-1 {
@@ -181,17 +181,26 @@ a:link {
     color: #4DADF7;
 }
 
+.button-2 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
 .btn-2 {
     display: flex;
-    justify-content: center;
+    justify-content:flex-end;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .section-3 {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
-    margin: 20px;}
+    padding: 30px;
+    margin: 20px;
+    margin-bottom: 30px;
+}
 
 .text-block-3 {
     display: flex;
@@ -209,8 +218,9 @@ a:link {
 .section-4 {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 30px;
     margin: 20px;
+
 }
 
 .text-block-4 {
@@ -229,12 +239,13 @@ a:link {
 .section-5 {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 30px;
     margin: 20px;
 }
 
 .text-block-5 {
     display: flex;
+    margin-bottom: 30px;
 }
 
 .text-content-5 {
@@ -244,4 +255,30 @@ a:link {
 
 .device-man {
     justify-content: flex-end;
+}
+
+footer {
+    padding: 50px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-photos {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.footer-text-1,
+.footer-text-2  {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
